@@ -7,11 +7,11 @@ interface LinkProps {
 
 export default function LinkDemo({ children, linkRef }: LinkProps) {
   return (
-    <Link
+    <a
       href={linkRef}
       className="flex flex-row items-center justify-center gap-3 rounded-lg link-gradient text-shadow max-w-xs py-3 w-4/5"
     >
       {children}
-    </Link>
+    </a>
   );
 }

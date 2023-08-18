@@ -20,6 +20,8 @@ const config: Config = {
         'qualify': 'url(/images/qualify.png)',
         'security': 'url(/images/security.png)',
         'speed': 'url(/images/speed.png)',
+        //projects
+        'gpthelper': 'url(/images/gpthelper.png)',
       },
     },
   },

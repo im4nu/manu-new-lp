@@ -53,11 +53,11 @@ export default function About() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-6">
+      <div className="flex flex-col items-center justify-center gap-6 mb-6">
         {cardsData.map((card) => (
           <div
             key={card.id}
-            className={`flex flex-col items-start justify-center p-6 max-w-xs gap-4 rounded-xl ${card.bg}`}
+            className={`flex flex-col items-start justify-center p-6 max-w-xs gap-4 rounded-xl bg-cover bg-center bg-no-repeat ${card.bg}`}
           >
             <p className="text-black bg-white rounded-lg py-3 px-12 text-lg">
               {card.title}
