@@ -88,7 +88,9 @@ export default function Projects() {
           </button>
         </div>
 
-        <h3 className="text-xs">Clique no gostar mais e para visita-lo</h3>
+        <h3 className="text-xs">
+          Clique no que gostar mais para visita-lo! 😉
+        </h3>
 
         <div className="flex flex-row gap-4 mb-20">
           {CarouselData.map((item, index) => (
