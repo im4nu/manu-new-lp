@@ -52,7 +52,7 @@ export default function Projects() {
       </div>
 
       <div className="flex flex-col items-center justify-center gap-4">
-        <div className="flex flex-row items-center justify-around gap-2 min-h-[550px] min-w-[300px]">
+        <div className="flex flex-row items-center justify-around gap-2 min-h-[550px] min-w-[375px] max-h-[550px] max-w-[375px]">
           <button
             onClick={handlePrevious}
             className="rounded-full p-3 bg-white text-main"
@@ -60,7 +60,7 @@ export default function Projects() {
             <ArrowLeft2 size={18} />
           </button>
 
-          <AnimatePresence mode="sync">
+          <AnimatePresence mode="wait">
             <motion.div
               key={step}
               initial={{ x: 10, opacity: 0 }}
