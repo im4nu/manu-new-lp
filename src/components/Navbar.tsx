@@ -11,7 +11,7 @@ export default function Navbar() {
   }
   return (
     <nav className="flex fixed z-20 top-0 left-0 flex-row items-center justify-center w-full h-fit py-6">
-      <div className="flex flex-row items-center justify-between w-5/6 max-w-7xl">
+      <div className="flex flex-row items-center justify-between w-5/6 max-w-7xl rounded-xl nav-shadow bg-main px-2">
         <Image alt="Logomarca manu" src={"/logo.png"} width={80} height={80} />
 
         <button

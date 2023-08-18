@@ -8,8 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'main': '#372443',
+      },
       backgroundImage: {
         'mobile-hero': 'url(/images/mobile-hero-bg.png)',
+        //cards
+        'astronaut': 'url(/images/astronaut.png)',
+        'expirience': 'url(/images/expirience.png)',
+        'ideia': 'url(/images/ideia.png)',
+        'qualify': 'url(/images/qualify.png)',
+        'security': 'url(/images/security.png)',
+        'speed': 'url(/images/speed.png)',
       },
     },
   },
