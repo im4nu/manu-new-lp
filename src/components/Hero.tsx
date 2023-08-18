@@ -54,10 +54,12 @@ export default function Hero() {
         />
       </div>
 
-      <ArrowDown2
-        size="32"
-        className="shadow-neon absolute bottom-20 left-[calc(50vw-16px)] animate-bounce"
-      />
+      <a href="#about">
+        <ArrowDown2
+          size="32"
+          className="shadow-neon absolute bottom-20 left-[calc(50vw-16px)] animate-bounce"
+        />
+      </a>
     </section>
   );
 }
