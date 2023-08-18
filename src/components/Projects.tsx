@@ -10,21 +10,21 @@ const CarouselData = [
     id: 0,
     description:
       "Site demonstrativo do sistema STDoctor, feito para empresa StartTec",
-    gif: "/gif/stDoctor.gif",
+    gif: "/gif/stdoctor.jpg",
     link: "https://st-doctor-lp.vercel.app/",
   },
   {
     id: 1,
     description:
       "Site para vendas de carros, feito para empresa Venda Seu Carro",
-    gif: "/gif/vendaseucarro.gif",
+    gif: "/gif/vendaseucarro.jpg",
     link: "https://vendaseucarro.com.br/",
   },
   {
     id: 2,
     description:
       "Site para vendas de carros, feito para empresa Venda Seu Carro",
-    gif: "/gif/moriabeauty.gif",
+    gif: "/gif/moriabeauty.jpg",
     link: "https://moria-beauty.vercel.app/",
   },
 ];
@@ -52,27 +52,23 @@ export default function Projects() {
       </div>
 
       <div className="flex flex-col items-center justify-center gap-4">
-        <div className="flex flex-row items-center justify-around gap-2">
+        <div className="flex flex-row items-center justify-around gap-2 min-h-[550px] min-w-[300px]">
           <button
             onClick={handlePrevious}
-            className="rounded-full p-3 bg-white text-main shadow-neon"
+            className="rounded-full p-3 bg-white text-main"
           >
             <ArrowLeft2 size={18} />
           </button>
 
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="sync">
             <motion.div
               key={step}
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -10, opacity: 0 }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0.3 }}
             >
-              <a
-                target="_blank"
-                href={CarouselData[step].link}
-                className="h-[550px] w-[300px]"
-              >
+              <a target="_blank" href={CarouselData[step].link}>
                 <Image
                   width={300}
                   height={640}
@@ -86,7 +82,7 @@ export default function Projects() {
 
           <button
             onClick={handleNext}
-            className="rounded-full p-3 bg-white text-main shadow-neon"
+            className="rounded-full p-3 bg-white text-main"
           >
             <ArrowRight2 size={18} />
           </button>
@@ -98,7 +94,7 @@ export default function Projects() {
           {CarouselData.map((item, index) => (
             <div
               key={index}
-              className={`h-1 w-[30px] flex shadow-neon ${
+              className={`h-1 w-[30px] flex ${
                 index === step ? "bg-white" : "bg-gray-400"
               }`}
             />
