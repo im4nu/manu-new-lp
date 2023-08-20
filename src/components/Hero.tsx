@@ -8,7 +8,7 @@ export default function Hero() {
       id="hero"
       className="flex flex-row items-center justify-evenly bg-mobile-hero bg-cover bg-left-bottom bg-no-repeat min-h-screen relative"
     >
-      <div className="flex flex-col w-4/5 gap-6 pl-4">
+      <div className="flex flex-col w-4/5 md:w-3/5 gap-6 pl-4">
         <h1 className="text-shadow text-2xl">
           Web Design não é sobre construir sites bonitos
         </h1>

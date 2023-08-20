@@ -42,9 +42,9 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center justify-center gap-8"
+      className="flex flex-col items-center justify-center gap-8 w-full"
     >
-      <div className="flex flex-col gap-4 w-full pl-8 pr-4 items-end justify-center text-end">
+      <div className="flex flex-col gap-4 pl-8 items-end justify-center text-end w-4/5 md:pl-0">
         <h3 className="text-sm">O invisível nos salta os olhos</h3>
         <h2 className="text-xl text-shadow">
           Confira alguns dos meus projetos

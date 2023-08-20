@@ -13,6 +13,8 @@ const config: Config = {
       },
       backgroundImage: {
         'mobile-hero': 'url(/images/mobile-hero-bg.png)',
+        'hero': 'url(/images/hero-bg.png)',
+        'bubles': 'url(/icons/bubles.svg)',
         //cards
         'astronaut': 'url(/images/astronaut.png)',
         'expirience': 'url(/images/expirience.png)',

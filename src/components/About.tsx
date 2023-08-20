@@ -46,18 +46,18 @@ const cardsData = [
 export default function About() {
   return (
     <section id="about" className="flex flex-col items-center justify-center">
-      <div className="flex flex-col gap-4 pl-8">
+      <div className="flex flex-col gap-4 pl-8 md:w-4/5 md:items-start">
         <h3 className="text-sm">Me conheça melhor</h3>
         <h2 className="text-xl text-shadow">
           Um profissional que faz a diferença!
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-6 mb-6">
+      <div className="flex flex-col md:flex-row md:flex-wrap md:mt-12 items-center justify-center gap-6 mb-6">
         {cardsData.map((card) => (
           <div
             key={card.id}
-            className={`flex flex-col items-start justify-center p-6 max-w-xs gap-4 rounded-xl bg-cover bg-center bg-no-repeat ${card.bg}`}
+            className={`flex flex-col items-start justify-center p-6 max-w-xs gap-4 rounded-xl bg-cover bg-center bg-no-repeat ${card.bg} md:w-[320px] md:h-[240px]`}
           >
             <p className="text-black bg-white rounded-lg py-3 px-12 text-lg">
               {card.title}

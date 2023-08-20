@@ -40,7 +40,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a href="wa.me/+5588988770502">
+          <a href="https://api.whatsapp.com/send/?phone=%2B5588988770502&text&type=phone_number&app_absent=0">
             <svg
               width="32"
               height="32"

@@ -10,14 +10,14 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center w-screen bg-black min-h-screen text-white gap-8">
+    <main className="flex flex-col items-center justify-center w-screen bg-black min-h-screen text-white gap-8 bg-bubles bg-center bg-no-repeat bg-cover">
       <Navbar />
       <Hero />
       <About />
       <Projects />
       <Footer />
       <a
-        href=""
+        href="#hero"
         className="flex fixed bottom-4 right-4 bg-white rounded-full text-main p-3 shadow-neon"
       >
         <ArrowUp2 size={24} />
