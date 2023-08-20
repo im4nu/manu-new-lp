@@ -53,7 +53,7 @@ export default function About() {
         </h2>
       </div>
 
-      <div className="flex flex-col md:flex-row md:flex-wrap md:mt-12 items-center justify-center gap-6 mb-6">
+      <div className="flex flex-col md:flex-row md:flex-wrap md:mt-12 items-center justify-center gap-6 mb-6 lg:w-4/5">
         {cardsData.map((card) => (
           <div
             key={card.id}

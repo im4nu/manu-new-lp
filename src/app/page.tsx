@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import { ArrowUp2 } from "iconsax-react";
-import Image from "next/image";
 
 import React from "react";
 
